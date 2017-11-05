@@ -161,10 +161,10 @@
             </objects>
             <point key="canvasLocation" x="-2230" y="156"/>
         </scene>
-        <!--Page View Controller-->
+        <!--View Controller-->
         <scene sceneID="U9h-AO-Wyu">
             <objects>
-                <viewController id="EcA-2x-PvI" customClass="PageViewController" customModule="GrammarEng" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="EcA-2x-PvI" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="S8R-yf-4fX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

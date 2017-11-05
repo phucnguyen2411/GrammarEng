@@ -6,5 +6,6 @@ target 'GrammarEng' do
   use_frameworks!
 
   # Pods for GrammarEng
+  pod 'SQLite.swift', '~> 0.11.4'
 
 end
