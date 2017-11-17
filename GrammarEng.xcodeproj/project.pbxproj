@@ -10,6 +10,8 @@
 		02472F411FA3AE6000521B0E /* testSQLite.db in Resources */ = {isa = PBXBuildFile; fileRef = 02472F401FA3AE6000521B0E /* testSQLite.db */; };
 		028ED90A1FAF38D500C1DFFB /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028ED9091FAF38D500C1DFFB /* PageViewController.swift */; };
 		028ED90D1FAF392500C1DFFB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028ED90C1FAF392500C1DFFB /* Launch Screen.storyboard */; };
+		028ED9111FAF3E5100C1DFFB /* Tense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028ED9101FAF3E5100C1DFFB /* Tense.swift */; };
+		028ED9131FAF401200C1DFFB /* TenseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028ED9121FAF401200C1DFFB /* TenseCard.swift */; };
 		02D6F06D1FA2494000827878 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D6F06B1FA2494000827878 /* BaseViewController.swift */; };
 		02D6F06E1FA2494000827878 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D6F06C1FA2494000827878 /* MenuViewController.swift */; };
 		02F58A781FA23C650025B651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F58A771FA23C650025B651 /* AppDelegate.swift */; };
@@ -25,6 +27,8 @@
 		02472F401FA3AE6000521B0E /* testSQLite.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = testSQLite.db; sourceTree = "<group>"; };
 		028ED9091FAF38D500C1DFFB /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		028ED90C1FAF392500C1DFFB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		028ED9101FAF3E5100C1DFFB /* Tense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tense.swift; sourceTree = "<group>"; };
+		028ED9121FAF401200C1DFFB /* TenseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenseCard.swift; sourceTree = "<group>"; };
 		02D6F06B1FA2494000827878 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		02D6F06C1FA2494000827878 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		02F58A741FA23C650025B651 /* GrammarEng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrammarEng.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +93,8 @@
 		028ED90E1FAF393500C1DFFB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				028ED9101FAF3E5100C1DFFB /* Tense.swift */,
+				028ED9121FAF401200C1DFFB /* TenseCard.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -288,8 +294,10 @@
 				02F58A7A1FA23C650025B651 /* ViewController.swift in Sources */,
 				02D6F06E1FA2494000827878 /* MenuViewController.swift in Sources */,
 				02D6F06D1FA2494000827878 /* BaseViewController.swift in Sources */,
+				028ED9131FAF401200C1DFFB /* TenseCard.swift in Sources */,
 				028ED90A1FAF38D500C1DFFB /* PageViewController.swift in Sources */,
 				02F58A781FA23C650025B651 /* AppDelegate.swift in Sources */,
+				028ED9111FAF3E5100C1DFFB /* Tense.swift in Sources */,
 				02F58A801FA23C650025B651 /* GrammarEng.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

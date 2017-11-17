@@ -31,5 +31,31 @@ class PageViewController: UIPageViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    
+    func LoadingPageController(){
+//        super.dataSource = new String("test Stirng")
+        
+    }
+    
+    func LoadTenseForView(nameTense: String) -> String{
+        let result = "new test string"
+        
+        
+        return result
+    }
+    
+    //Create enum for tense
+    func InitNameOfTense(){
+        
+        
+    }
+    
+    
+    func callLoadingTense(){
+        LoadingPageController()
+        LoadTenseForView(nameTense: "SimplePass")
+        
+    }
 
 }
