@@ -32,30 +32,6 @@ class PageViewController: UIPageViewController {
     }
     */
     
-    
-    func LoadingPageController(){
-//        super.dataSource = new String("test Stirng")
-        
-    }
-    
-    func LoadTenseForView(nameTense: String) -> String{
-        let result = "new test string"
-        
-        
-        return result
-    }
-    
-    //Create enum for tense
-    func InitNameOfTense(){
-        
-        
-    }
-    
-    
-    func callLoadingTense(){
-        LoadingPageController()
-        LoadTenseForView(nameTense: "SimplePass")
-        
-    }
+
 
 }

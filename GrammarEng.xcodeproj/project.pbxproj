@@ -8,14 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		02472F411FA3AE6000521B0E /* testSQLite.db in Resources */ = {isa = PBXBuildFile; fileRef = 02472F401FA3AE6000521B0E /* testSQLite.db */; };
+		0263887F1FBF565B00D36392 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 026388781FBF565A00D36392 /* 2.jpg */; };
+		026388801FBF565B00D36392 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 026388791FBF565A00D36392 /* 4.jpg */; };
+		026388811FBF565B00D36392 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0263887A1FBF565A00D36392 /* 3.jpg */; };
+		026388821FBF565B00D36392 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0263887B1FBF565A00D36392 /* 1.jpg */; };
+		026388831FBF565B00D36392 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0263887C1FBF565A00D36392 /* 5.jpg */; };
+		026388841FBF565B00D36392 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0263887D1FBF565A00D36392 /* 7.jpg */; };
+		026388851FBF565B00D36392 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0263887E1FBF565A00D36392 /* 6.jpg */; };
 		028ED90A1FAF38D500C1DFFB /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028ED9091FAF38D500C1DFFB /* PageViewController.swift */; };
 		028ED90D1FAF392500C1DFFB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028ED90C1FAF392500C1DFFB /* Launch Screen.storyboard */; };
 		028ED9111FAF3E5100C1DFFB /* Tense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028ED9101FAF3E5100C1DFFB /* Tense.swift */; };
 		028ED9131FAF401200C1DFFB /* TenseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028ED9121FAF401200C1DFFB /* TenseCard.swift */; };
+		02C395C31FC1CBBF00687777 /* TensePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C395C21FC1CBBF00687777 /* TensePreviewViewController.swift */; };
 		02D6F06D1FA2494000827878 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D6F06B1FA2494000827878 /* BaseViewController.swift */; };
 		02D6F06E1FA2494000827878 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D6F06C1FA2494000827878 /* MenuViewController.swift */; };
 		02F58A781FA23C650025B651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F58A771FA23C650025B651 /* AppDelegate.swift */; };
-		02F58A7A1FA23C650025B651 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F58A791FA23C650025B651 /* ViewController.swift */; };
+		02F58A7A1FA23C650025B651 /* RootPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F58A791FA23C650025B651 /* RootPageView.swift */; };
 		02F58A7D1FA23C650025B651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F58A7B1FA23C650025B651 /* Main.storyboard */; };
 		02F58A801FA23C650025B651 /* GrammarEng.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02F58A7E1FA23C650025B651 /* GrammarEng.xcdatamodeld */; };
 		02F58A821FA23C650025B651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02F58A811FA23C650025B651 /* Assets.xcassets */; };
@@ -25,15 +33,23 @@
 
 /* Begin PBXFileReference section */
 		02472F401FA3AE6000521B0E /* testSQLite.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = testSQLite.db; sourceTree = "<group>"; };
+		026388781FBF565A00D36392 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		026388791FBF565A00D36392 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		0263887A1FBF565A00D36392 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		0263887B1FBF565A00D36392 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		0263887C1FBF565A00D36392 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		0263887D1FBF565A00D36392 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		0263887E1FBF565A00D36392 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
 		028ED9091FAF38D500C1DFFB /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		028ED90C1FAF392500C1DFFB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		028ED9101FAF3E5100C1DFFB /* Tense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tense.swift; sourceTree = "<group>"; };
 		028ED9121FAF401200C1DFFB /* TenseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenseCard.swift; sourceTree = "<group>"; };
+		02C395C21FC1CBBF00687777 /* TensePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TensePreviewViewController.swift; sourceTree = "<group>"; };
 		02D6F06B1FA2494000827878 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		02D6F06C1FA2494000827878 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		02F58A741FA23C650025B651 /* GrammarEng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrammarEng.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F58A771FA23C650025B651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		02F58A791FA23C650025B651 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02F58A791FA23C650025B651 /* RootPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPageView.swift; sourceTree = "<group>"; };
 		02F58A7C1FA23C650025B651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02F58A7F1FA23C650025B651 /* GrammarEng.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GrammarEng.xcdatamodel; sourceTree = "<group>"; };
 		02F58A811FA23C650025B651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,10 +89,26 @@
 			path = Database;
 			sourceTree = "<group>";
 		};
+		026388771FBF563B00D36392 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0263887B1FBF565A00D36392 /* 1.jpg */,
+				026388781FBF565A00D36392 /* 2.jpg */,
+				0263887A1FBF565A00D36392 /* 3.jpg */,
+				026388791FBF565A00D36392 /* 4.jpg */,
+				0263887C1FBF565A00D36392 /* 5.jpg */,
+				0263887E1FBF565A00D36392 /* 6.jpg */,
+				0263887D1FBF565A00D36392 /* 7.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		028ED9081FAF389600C1DFFB /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				02F58A791FA23C650025B651 /* RootPageView.swift */,
 				028ED9091FAF38D500C1DFFB /* PageViewController.swift */,
+				02C395C21FC1CBBF00687777 /* TensePreviewViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -127,6 +159,7 @@
 		02F58A761FA23C650025B651 /* GrammarEng */ = {
 			isa = PBXGroup;
 			children = (
+				026388771FBF563B00D36392 /* Resource */,
 				028ED90F1FAF394300C1DFFB /* Helpers */,
 				028ED90E1FAF393500C1DFFB /* Models */,
 				028ED90B1FAF38ED00C1DFFB /* UI */,
@@ -134,7 +167,6 @@
 				02472F3E1FA3ACFA00521B0E /* Database */,
 				02472F3D1FA3AAB100521B0E /* SlideMenu */,
 				02F58A771FA23C650025B651 /* AppDelegate.swift */,
-				02F58A791FA23C650025B651 /* ViewController.swift */,
 				02F58A811FA23C650025B651 /* Assets.xcassets */,
 				02F58A831FA23C650025B651 /* LaunchScreen.storyboard */,
 				02F58A861FA23C650025B651 /* Info.plist */,
@@ -222,11 +254,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				026388841FBF565B00D36392 /* 7.jpg in Resources */,
+				0263887F1FBF565B00D36392 /* 2.jpg in Resources */,
+				026388831FBF565B00D36392 /* 5.jpg in Resources */,
+				026388801FBF565B00D36392 /* 4.jpg in Resources */,
 				02F58A851FA23C650025B651 /* LaunchScreen.storyboard in Resources */,
 				02F58A821FA23C650025B651 /* Assets.xcassets in Resources */,
+				026388851FBF565B00D36392 /* 6.jpg in Resources */,
 				02F58A7D1FA23C650025B651 /* Main.storyboard in Resources */,
 				028ED90D1FAF392500C1DFFB /* Launch Screen.storyboard in Resources */,
+				026388821FBF565B00D36392 /* 1.jpg in Resources */,
 				02472F411FA3AE6000521B0E /* testSQLite.db in Resources */,
+				026388811FBF565B00D36392 /* 3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,10 +294,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GrammarEng/Pods-GrammarEng-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
 				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,10 +332,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02F58A7A1FA23C650025B651 /* ViewController.swift in Sources */,
+				02F58A7A1FA23C650025B651 /* RootPageView.swift in Sources */,
 				02D6F06E1FA2494000827878 /* MenuViewController.swift in Sources */,
 				02D6F06D1FA2494000827878 /* BaseViewController.swift in Sources */,
 				028ED9131FAF401200C1DFFB /* TenseCard.swift in Sources */,
+				02C395C31FC1CBBF00687777 /* TensePreviewViewController.swift in Sources */,
 				028ED90A1FAF38D500C1DFFB /* PageViewController.swift in Sources */,
 				02F58A781FA23C650025B651 /* AppDelegate.swift in Sources */,
 				028ED9111FAF3E5100C1DFFB /* Tense.swift in Sources */,

@@ -7,5 +7,5 @@ target 'GrammarEng' do
 
   # Pods for GrammarEng
   pod 'SQLite.swift', '~> 0.11.4'
-
+  pod 'FSPagerView'
 end

@@ -31,9 +31,9 @@ class BaseViewController: UIViewController, SlideMenuDelegate {
             
             break
         case 1:
-            print("Play\n", terminator: "")
+            print("Tense\n", terminator: "")
             
-            self.openViewControllerBasedOnIdentifier("View1")
+            self.openViewControllerBasedOnIdentifier("TensePreviewView")
             
             break
         default:
@@ -47,7 +47,7 @@ class BaseViewController: UIViewController, SlideMenuDelegate {
         let topViewController : UIViewController = self.navigationController!.topViewController!
         
         if (topViewController.restorationIdentifier! == destViewController.restorationIdentifier!){
-            print("Same VC")
+            print("Back to Home")
         } else {
             self.navigationController!.pushViewController(destViewController, animated: true)
         }

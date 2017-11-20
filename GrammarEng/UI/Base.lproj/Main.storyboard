@@ -15,10 +15,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Root Page View-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController restorationIdentifier="Home" storyboardIdentifier="Home" id="BYZ-38-t0r" customClass="ViewController" customModule="GrammarEng" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="Home" storyboardIdentifier="Home" id="BYZ-38-t0r" customClass="RootPageView" customModule="GrammarEng" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -62,20 +62,34 @@
             </objects>
             <point key="canvasLocation" x="-500" y="155"/>
         </scene>
-        <!--View Controller-->
+        <!--Tense Preview View Controller-->
         <scene sceneID="QM9-pN-UCN">
             <objects>
-                <viewController restorationIdentifier="View1" storyboardIdentifier="View1" id="kwb-fa-H9x" sceneMemberID="viewController">
+                <viewController restorationIdentifier="TensePreviewView" storyboardIdentifier="TensePreviewView" id="kwb-fa-H9x" customClass="TensePreviewViewController" customModule="GrammarEng" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b5j-XK-gmj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Or-jY-vCU" customClass="FSPagerView" customModule="GrammarEng" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="204"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="dasdas" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dAd-EK-NYy">
+                                <rect key="frame" x="139" y="241" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="rKd-0x-jmu"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dsI-Nb-cOj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="772" y="155"/>
+            <point key="canvasLocation" x="-500" y="960"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="Pfm-97-8Ap">
@@ -160,21 +174,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3d1-KC-aSw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2230" y="156"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="U9h-AO-Wyu">
-            <objects>
-                <viewController id="EcA-2x-PvI" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="S8R-yf-4fX">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="e9C-Wh-fOq"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zVN-OB-XyF" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2231" y="959"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mgP-st-OaF">
